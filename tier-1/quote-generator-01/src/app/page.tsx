@@ -1,3 +1,4 @@
+// Last edited: 2025-08-13 09:00:58
 'use client';
 
 import { useState } from 'react';
@@ -42,6 +43,7 @@ export default function Home() {
             className='rounded-sm py-1 px-2 bg-indigo-700 text-white hover:bg-indigo-800 cursor-pointer'>
             Get Another Quote
           </button>
+          <input type='text' />
         </div>
         {/* quote */}
         <em className='text-2xl text-slate-900 w-full text-center'>{quote.quote}</em>
